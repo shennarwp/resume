@@ -27,7 +27,7 @@ Vue.component("experience", {
             <h3 class="header">Experience</h3>
             <div v-for='job in data' class='job sub-section'>
                 <h5 class="header">{{ job.title }} &middot; {{ job.company }} &middot; {{ job.from }} - {{ job.to }}</h5>
-                
+
                 <p>{{ job.description }}</p>
                 <ul class="results">
                     <li v-for="r in job.results"><span>{{ r }}</span></li>
@@ -46,15 +46,18 @@ Vue.component("projects", {
             <div v-for='project in data' class='project sub-section'>
                 <h5 class="header"><a class="no-decorate" :href="project.url">{{ project.title }} &middot; {{ project.category }}</a></h5>
                 <p>{{ project.description }}</p>
-                <h6 class="header" style="margin-top: 5px;">Key Features</h6>
-                <ul class="results">
-                    <li v-for="r in project.features"><span>{{ r }}</span></li>
-                </ul>
+
                 <h6 class="inline-header" v-if="project.technologies">Tech Used:</h6><span v-for="tech in project.technologies" class="tech tag">{{tech}}</span>
             </div>
         </div>
     `
 });
+/** KEY FEATURES for Projects
+                <h6 class="header" style="margin-top: 5px;">Key Features</h6>
+                <ul class="results">
+                    <li v-for="r in project.features"><span>{{ r }}</span></li>
+                </ul>
+*/
 
 Vue.component("education", {
     props:['data'],
@@ -62,8 +65,11 @@ Vue.component("education", {
         <div class='section'>
             <h3 class="header">Education</h3>
             <div v-for='degree in data' class='sub-section'>
-                <h5 class="header">{{ degree.type }} in {{ degree.subject }} &middot; {{ degree.date }} &middot; {{ degree.school }}</h5>
+                <h5 class="header">{{ degree.type }} in {{ degree.subject }} &middot; {{ degree.date }} &middot; {{ degree.school }} &middot; {{ degree.from }} - {{ degree.to }}</h5>
                 <p>{{ degree.summary }}</p>
+                <ul class="projects">
+                    <li v-for="r in degree.projects"><span>{{ r }}</span></li>
+                </ul>
             </div>
         </div>
     `
@@ -79,12 +85,12 @@ Vue.component("skills", {
             </h3>
             <div v-for='skill in data' class='sub-section'>
                 <h5 class="header">
-                    {{ skill.name }} 
+                    {{ skill.name }}
                     <span v-if="skill.level" class="proficiency-level">
                         <span class="proficiency-bar" :style="{width:(skill.level*20)+'%'}"></span>
                     </span>
                 </h5>
-                 
+
                 <span>{{ skill.desc }}</span>
             </div>
         </div>
@@ -117,7 +123,7 @@ Vue.component("column", {
     props:['width'],
     template:`<div class='column' :style='{flexBasis:width + "%"}'><slot></slot></div>`
 });
-
+/**
 Vue.component("circle-callout", {
     props:{size:Number, info:Boolean, open:Boolean},
     template:`
@@ -136,6 +142,7 @@ Vue.component("circle-callout", {
     }
 
 });
+*/
 
 Vue.component("circle-menu", {
     props:{size:Number, info:Object},
@@ -147,11 +154,11 @@ Vue.component("circle-menu", {
             <div v-if="open" title="Close"><span class="close icon">×</span></div>
             <div class="application-info" @click.stop="">
                 <div>
-                    <h5>Application Version</h5> 
+                    <h5>Application Version</h5>
                     <h2>V{{info.appVersion}}</h2>
                 </div>
                 <div>
-                    <h5>Resume Version</h5> 
+                    <h5>Resume Version</h5>
                     <h2>V{{info.resumeVersion}}</h2>
                 </div>
             </div>
