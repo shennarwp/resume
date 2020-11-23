@@ -1,12 +1,19 @@
-# Use this for local development
-# Or don't ¯\_(ツ)_/¯
-
 version: '3'
 services:
-  nginx:
-    build: .
-    image: rg
-    ports:
-      - 80:80
+  resume:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: resume
+    container_name: resume
+    restart: always
+    expose:
+      - 80
     volumes:
-      - .:/usr/share/nginx/html/
+      - ./:/usr/share/nginx/html/
+    networks:
+      - nginx
+
+networks:
+  nginx:
+    external: true
