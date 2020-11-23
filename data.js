@@ -22,7 +22,7 @@ DATA = {
             title:"Praktikant",
             from:"August 2019",
             to:"März 2020",
-            description:"Praktikant in einer IT-Abteilung, die für die Steuerung des Hochofens verantwortlich ist",
+            description:"Praktikant in einer IT-Abteilung, die für die Steuerung des Hochofens verantwortlich ist.",
             results:[
                 "Schreibte die Bachelorarbeit mit dem Thema Datenbanksysteme (PostgreSQL und Amazon DynamoDB) in einem bestehenden Java-Programm.",
                 "Modifizierte das Programm, so dass es mit verschidene Datenbanktypen (SQL und NoSQL) kommunizieren kann.",
