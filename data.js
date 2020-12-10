@@ -107,6 +107,11 @@ DATA = {
             desc:"Anfänger Erfahrung mit JUnit zum testen von Java-Projekten. Lernte noch die beste Praxis der Test Driven Development."
         },
         {
+            name:"Spring",
+            level:1.5,
+            desc:"Grundkenntnisse und Anfängererfahrung aus kleinen Projekten. Beispiel: Erstellen eines einfachen REST-Endpoint für ein kleines Java-Programm."
+        },
+        {
             name:"HTML/CSS/JavaScript",
             level:1.5,
             desc:"Anfänger Kentnisse und Erfahrung im Hobbybereich. Dieser Lebenslauf wird von der Vorlage von GitHub modifiziert."
@@ -144,7 +149,7 @@ DATA = {
             title:"compose",
             category:"Konfigurationsdateien",
             url:"https://github.com/shennarwp/compose",
-            description:"Eine Sammlung von Docker-Compose-Dateieneine Sammlung von Docker-Compose-Dateien von mehreren Anwendungen, die mit Docker auf meinem Heimserver bereitgestellt werden. Eine Visualisierung des Servers ist unter https://m900.shennarwp.com/grafana/ zu sehen.",
+            description:"Eine Sammlung von Docker-Compose-Dateien von mehreren Anwendungen, die mit Docker auf dem Heimserver bereitgestellt werden. Eine Übersicht ist unter https://m900.shennarwp.com/grafana/d/dc/docker-containers zu sehen.",
             technologies:[
                 "Docker",
                 "Nginx",
