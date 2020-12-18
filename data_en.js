@@ -158,7 +158,7 @@ DATA = {
         // },
         {
             title:"compose",
-            category:"Konfigurationsdateien",
+            category:"Configuration files",
             url:"https://github.com/shennarwp/compose",
             description:"A collection of Docker compose files from multiple applications deployed to the home server using Docker. An overview can be seen at https://m900.shennarwp.com/grafana/d/dc/docker-containers.",
             technologies:[
