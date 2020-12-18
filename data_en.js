@@ -14,21 +14,21 @@ DATA = {
     phone:"+4915257523364",
     github:"github.com/shennarwp",
     // objective:`Seeking a position ${COMPANY} where I can apply ${SKILLS} to ${OUTCOME}.`,                                                              //for tailored resumes
-    profile:`Zuverlässig, unabhängig und detailorientiert. Analytisch und hoch motiviert im Teamarbeit.`,    //for non-specific resumes
+    profile:`Reliable, independent and detail oriented. Analytical and highly motivated in teamwork.`,    //for non-specific resumes
     displayObjective:false,         //only object OR profile can be displayed at once.  If false, profile is displayed.  If true, objective is displayed.
     experience:[                    //professional experience
         {
             company:"AG der Dillinger Hüttenwerke",
-            title:"Praktikant",
+            title:"Intern",
             from:"August 2019",
-            to:"März 2020",
-            description:"Praktikant in einer IT-Abteilung, die für die Steuerung des Hochofens verantwortlich ist.",
+            to:"March 2020",
+            description:"Intern in an IT department responsible for controlling the blast furnace.",
             results:[
-                "Schreibte die Bachelorarbeit mit dem Thema Datenbanksysteme (PostgreSQL und Amazon DynamoDB) in einem bestehenden Java-Programm.",
-                "Modifizierte das Programm, so dass es mit verschidene Datenbanktypen (SQL und NoSQL) kommunizieren kann.",
-                "Lernte, wie Unternehmenssoftware-Architekturen (Domain Driven Design, Hexagonale Architektur) einem realen Projekt angewendet werden.",
-                "Lernte verschiedene CI/CD Tools wie Jenkins, SonarQube kennen und wie sie den agilen Software-Prozess unterstützten.",
-                "Unterstützte anderer Kollegen bei der Migration verschiedener Tools und Infrastruktur-Software auf Docker."
+                "Wrote bachelor thesis regarding database systems (PostgreSQL and Amazon DynamoDB) in an existing Java program.",
+                "Modified the program so that it can communicate with different database types (SQL and NoSQL).",
+                "Learned how enterprise software architectures (Domain Driven Design, Hexagonal Architecture) are applied to a real project.",
+                "Learned about different CI/CD tools like Jenkins, SonarQube and how they support the agile software process.",
+                "Assisted other colleagues in migrating various tools and infrastructure software to Docker."
             ],
             technologies:[
                 "Java",
@@ -44,12 +44,12 @@ DATA = {
             type:"B.Sc.",
             subject:"Praktische Informatik",
             school:"Hochschule für Technik und Wirtschaftlich des Saarlandes",
-            from:"Oktober 2016",
+            from:"October 2016",
             to:"September 2020",
-            summary:"Gesamtnote 2,5. Baute eine solide Grundlage auf, um Probleme logisch und systematisch zu behandeln und zu analysieren. Zu den Fächern gehörten Datenbank, Datenanalyse, verteiltes System und Information Retrieval. Beispielprojekte:",
+            summary:"Overall grade of 2.5. Built a solid foundation to logically and systematically address and analyze problems. Subjects included database, data analysis, distributed system, and information retrieval. Sample Projects:",
             projects:[
-                "Ein kleines Client-Server-Terminkalender-Programm. Für das Backend (REST API, Datenbank) verantwortlich. In Java geschrieben.",
-                "Eine Mini-Suchmaschine, die relevante Dokumente aus dem Artikelarchiv der New York Times zurückgeben könnte. Mit elasticsearch als Datenbank."
+                "A small client-server calendar program. Responsible for the backend (REST API, database). Written in Java.",
+                "A mini search engine that could return relevant documents from the New York Times article archive. With Elasticsearch as the database."
             ],
 
         },
@@ -57,8 +57,8 @@ DATA = {
             type:"Hochschulzugangsberechtigung",
             subject:"T-Kurs",
             school:"Studienkolleg Universität des Saarlandes",
-            from:"März 2014",
-            to:"Februar 2015",
+            from:"March 2014",
+            to:"February 2015",
             summary:""
 
         }
@@ -69,65 +69,65 @@ DATA = {
         {
             name:"Java",
             level:4,
-            desc:"Fundierte Kenntnisse und Erfahrungen im modernen Java (8 bzw. 11). Mit JPA, Lambda-Ausdrücke und Stream API vertraut."
+            desc:"Good knowledge and experience in modern Java (8 or 11). Familiar with JPA, Lambda expressions and Stream API."
         },
         {
-            name:"Unix/Linux bzw. Shell Script",
+            name:"Unix/Linux and Shell Script",
             level:4,
-            desc:"Erfahrung in der Verwaltung von Debian-basierten Servern im Studium und als Hobby. Schrieb mehrere Shellskripte, um Aufgaben zu automatisieren."
+            desc:"Experience in managing Debian-based servers in college and as a hobby. Wrote several shell scripts to automate various tasks."
         },
         {
             name:"Docker",
             level:3,
-            desc:"Gute Kentnisse und Erfahrungen mit Docker, Docker Compose im Hobbybereich. Zu den Erfahrungen gehören unter anderem die Containerisierung verschiedener Anwendungen, CI/CD-Tools, Netzwerk-Tools und eine statische Webseite."
+            desc:"Good knowledge and experience with Docker, Docker Compose as a hobby. Experience includes containerization of various applications, CI/CD tools, networking tools, and a static website."
         },
         {
             name:"SQL",
             level:3,
-            desc:"Grundkenntnisse und Erfahrung mit SQL bei der Verwaltung der Backend-Seite für Projekte während meines Studiums."
+            desc:"Basic knowledge and experience with SQL in managing the backend side for projects during my studies."
         },
         {
             name:"git",
             level:3,
-            desc:"Erfahrung mit der Verwendung von CLI Git und GitHub zur Zusammenarbeit in einem Team und zur Softwareversionkontrolle."
+            desc:"Experience using CLI Git and GitHub for team collaboration and software version control."
         },
         {
             name:"maven",
             level:2.5,
-            desc:"Erfahrung mit der Verwendung von maven zur Verwaltung der Abhängigkeit bei Java-Projekten."
+            desc:"Experience using maven to manage dependency on Java projects."
         },
         {
             name:"Jenkins",
             level:2,
-            desc:"Erfahrung mit dem Einsatz von Jenkins bei einigen kleinen Projekten. Eines davon war, mein Thesis von Latex zu pdf zu erstellen."
+            desc:"Experience with using Jenkins on a few small projects. One of them was to create my thesis from latex to pdf."
         },
         {
             name:"JUnit",
             level:1.5,
-            desc:"Anfänger Erfahrung mit JUnit zum testen von Java-Projekten. Lernte noch die beste Praxis der Test Driven Development."
+            desc:"Beginner experience using JUnit to test Java projects. Still learning the best practice of Test Driven Development."
         },
         {
             name:"Spring",
             level:1.5,
-            desc:"Grundkenntnisse und Anfängererfahrung aus kleinen Projekten. Beispiel: Erstellen eines einfachen REST-Endpoint für ein kleines Java-Programm."
+            desc:"Basic knowledge and beginner experience from small projects. Example: Creating a simple REST endpoint for a small Java program."
         },
         {
             name:"HTML/CSS/JavaScript",
             level:1.5,
-            desc:"Anfänger Kentnisse und Erfahrung im Hobbybereich. Dieser Lebenslauf wird von der Vorlage von GitHub modifiziert."
+            desc:"Beginner skills and experience in the hobby. This resume is modified from the template on GitHub."
         },
         {
             name:"Kubernetes",
             level:1,
-            desc:"Anfänger Erfahrung im Hobbybereich."
+            desc:"Beginner experience as a hobby."
         }
     ],
     projects:[      // this just fills up space on the second page, idk what else to put here ¯\_(ツ)_/¯
         {
             title:"counterpostgres",
-            category:"Testingprogramm",
+            category:"Testing programm",
             url:"https://github.com/shennarwp/counterpostgres",
-            description:"Kleines Java Programm zum Testen des Streaming-Replikationsmechanismus und des Failover-Mechanismus zwischen 2 PostgreSQL-Datenbankinstanzen. Beide Instanzen werden lokal über den Docker-Container bereitgestellt.",
+            description:"Small Java program to test the streaming replication mechanism and the failover mechanism between 2 PostgreSQL database instances. Both instances are deployed locally via Docker container.",
             technologies:[
                 "Java",
                 "PostgreSQL",
@@ -136,9 +136,9 @@ DATA = {
         },
         {
             title:"dashboard",
-            category:"Statische website",
+            category:"Static website",
             url:"https://github.com/shennarwp/dashboard",
-            description:"Eine statische Website, in Java geschrieben mit Spring und Vaadin als GUI-Framework. Verfügbar unter: https://m900.shennarwp.com/dashboard",
+            description:"A small static website, written in Java using Spring and Vaadin as GUI framework. Available at: https://m900.shennarwp.com/dashboard",
             technologies:[
                 "Java",
                 "Spring",
@@ -160,7 +160,7 @@ DATA = {
             title:"compose",
             category:"Konfigurationsdateien",
             url:"https://github.com/shennarwp/compose",
-            description:"Eine Sammlung von Docker-Compose-Dateien von mehreren Anwendungen, die mit Docker auf dem Heimserver bereitgestellt werden. Eine Übersicht ist unter https://m900.shennarwp.com/grafana/d/dc/docker-containers zu sehen.",
+            description:"A collection of Docker compose files from multiple applications deployed to the home server using Docker. An overview can be seen at https://m900.shennarwp.com/grafana/d/dc/docker-containers.",
             technologies:[
                 "Docker",
                 "Nginx",
@@ -171,9 +171,9 @@ DATA = {
         },
         {
             title:"resume",
-            category:"Statische Webseite",
+            category:"Static Website",
             url:"https://github.com/shennarwp/resume",
-            description:"Eine statische Webseite, die als Lebenslauf dient. Verwende eine Template von ein GitHub-Projekt. Unter https://shennarwp.com/cv/ verfügbar.",
+            description:"A static web page that serves as a resume. Use a template from a GitHub project. Available at https://shennarwp.com/cv/.",
             technologies:[
                 "Vue.js",
                 "HTML",
